@@ -28,4 +28,13 @@ body {
 
 .middle {
     border: 1px solid red;
+    background-color: bisque;
+}
+
+.startText {
+    
+    color: #1f2937;
+    padding: 2px;
+    font-size: 18px;
+
 }
