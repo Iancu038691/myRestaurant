@@ -1,0 +1,28 @@
+{
+  "name": "myRestaurant",
+  "version": "1.0.0",
+  "description": "The content of my Restaurant",
+  "private": "true",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iancu038691/myRestaurant.git"
+  },
+  "author": "Iancu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iancu038691/myRestaurant/issues"
+  },
+  "homepage": "https://github.com/Iancu038691/myRestaurant#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

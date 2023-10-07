@@ -1,0 +1,31 @@
+
+body {
+    margin: 0;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1f2937;
+    padding: 36px;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+   
+    justify-content: space-between;
+    flex-direction: row;
+    background: #1f2937;
+    padding: 18px 200px 100px 200px;
+}
+
+
+.middle {
+    border: 1px solid red;
+}
