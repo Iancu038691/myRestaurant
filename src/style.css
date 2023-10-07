@@ -29,12 +29,17 @@ body {
 .middle {
     border: 1px solid red;
     background-color: bisque;
+    display: flex;
+   
+    justify-content: center;
+    
 }
 
 .startText {
-    
+    display: flex;
+    align-items: center;
     color: #1f2937;
     padding: 2px;
-    font-size: 18px;
+    font-size: 48px;
 
 }

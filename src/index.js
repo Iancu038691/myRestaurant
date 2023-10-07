@@ -37,7 +37,7 @@ header.appendChild(aboutus);
 header.appendChild(location);
 
 
-const startText = document.querySelector('div');
+const startText = document.createElement('div');
 startText.classList.add('startText');
 startText.textContent = 'Welcome to our restaurant, how can we serve you';
 
