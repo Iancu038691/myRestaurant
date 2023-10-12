@@ -3,7 +3,6 @@ body {
     margin: 0;
     flex-direction: column;
     display: flex;
-    justify-content: center;
 }
 
 .footer {
@@ -16,21 +15,32 @@ body {
     color: #f9faf8;
 }
 
+
 .header {
     display: flex;
-   
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
     flex-direction: row;
     background: #1f2937;
-    padding: 18px 200px 100px 200px;
+    height: 250px;
 }
 
+.header button {
+    border-color: aqua;
+    background-color: magenta;
+    color:aliceblue;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+
+
+}
 
 .middle {
     border: 1px solid red;
     background-color: bisque;
     display: flex;
-   
+   height: 700px;
     justify-content: center;
     
 }

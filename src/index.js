@@ -1,5 +1,7 @@
 import './style.css';
-
+import { addMenu } from './menu.js';
+import { addAboutUs } from './aboutus';
+import { addLocation } from './location';
 
 
 
@@ -43,5 +45,14 @@ startText.textContent = 'Welcome to our restaurant, how can we serve you';
 
 middle.appendChild(startText);
 
+menu.onclick = (event) => {
+    addMenu(event, middle);
+}
 
+aboutus.onclick = (event) => {
+    addAboutUs(event, middle);
+}
 
+location.onclick = (event) => {
+    addLocation(event, middle);
+}
